@@ -1,4 +1,4 @@
-## Unlocking Your Tinder Likes (first 10) Without Gold
+## Unlocking Your Tinder Likes' Photos (first 10) Without Gold
 
 ***
 As I'm sure most of us know, Tinder doesn't allow you to see who has swiped right on you unless you purchase a subscription from them.
