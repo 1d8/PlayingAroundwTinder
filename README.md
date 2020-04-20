@@ -11,7 +11,7 @@ But this still only gets us a partially unblurred image:
 
 BUT, if we open up developer console again and go to the network tab and click on our likes, we see some new events, but only 2 are of interest to us:
 ![](https://github.com/1d8/GettingLikesPics/blob/master/tinder/teaser.png)
-These two teaser objects are what brings us the blurred images, going into the larger one (in my case 3.4kb), and then going into the response, we see JSON output:
+These two teaser objects are what brings us the blurred images, going into the larger one (in my case 3.4KB), and then going into the response, we see JSON output:
 ![](https://github.com/1d8/GettingLikesPics/blob/master/tinder/json.png)
 You can choose to [beautify](https://gchq.github.io/CyberChef/#recipe=JSON_Beautify('%20%20%20%20',false)) this to make it easier to read, but I just copied it all & threw it in a text editor.
 
