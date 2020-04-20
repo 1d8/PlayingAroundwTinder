@@ -8,6 +8,7 @@ Of course there are ways of bypassing this that already exist such as opening up
 But this still only gets us a partially unblurred image:
 
 ![](https://github.com/1d8/GettingLikesPics/blob/master/tinder/blurredimg.png)
+
 BUT, if we open up developer console again and go to the network tab and click on our likes, we see some new events, but only 2 are of interest to us:
 ![](https://github.com/1d8/GettingLikesPics/blob/master/tinder/teaser.png)
 These two teaser objects are what brings us the blurred images, going into the larger one (in my case 3.4kb), and then going into the response, we see JSON output:
