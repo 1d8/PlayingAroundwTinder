@@ -6,6 +6,7 @@ As I'm sure most of us know, Tinder doesn't allow you to see who has swiped righ
 Of course there are ways of bypassing this that already exist such as opening up the developer console & using inspect element to change the value of the blur to 0px instead of the usual 12px value:
 ![](https://github.com/1d8/GettingLikesPics/blob/master/tinder/devconsole.png) 
 But this still only gets us a partially unblurred image:
+
 ![](https://github.com/1d8/GettingLikesPics/blob/master/tinder/blurredimg.png)
 BUT, if we open up developer console again and go to the network tab and click on our likes, we see some new events, but only 2 are of interest to us:
 ![](https://github.com/1d8/GettingLikesPics/blob/master/tinder/teaser.png)
