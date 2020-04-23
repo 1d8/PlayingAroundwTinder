@@ -4,35 +4,36 @@ This method is a way to see who's in your Tinder "time-line(?)" (for lack of a b
 * Open up the dev console
 * Refresh the page (make sure you're on the main page before refreshing)
 * Navigate to the **core?locale=en** object:
-![](/home/n9/study/cybernotes/tinder/devcons.png)
+![](https://github.com/1d8/GettingLikesPics/blob/master/more-imgs/devcons.png)
 * Copy the JSON output, paste it in your fav text edito
 * Congrats!
 
 # Diving Deeper Into The JSON:
 Throwing our JSON into [Cyberchef's beautifier](https://gchq.github.io/CyberChef/#recipe=JSON_Beautify('%20%20%20%20',false)), we get this:
 
-![](/home/n9/study/cybernotes/tinder/info1.png)
+![](https://github.com/1d8/GettingLikesPics/blob/master/more-imgs/info1.png)
 
 As we can see, we are hit with their ID, name, the year they were born (the date & the month remain the same for all users for some reason), as well as all their photos they have on their profile!
 
 Scrolling down...
 
-![](/home/n9/study/cybernotes/tinder/info2.png)
+![](https://github.com/1d8/GettingLikesPics/blob/master/more-imgs/info2.png)
 
 As we can see, we get even more info!
 
 Here's more proof the birth month & day remain static for all users:
 
-![](/home/n9/study/cybernotes/tinder/info3.png)
+![](https://github.com/1d8/GettingLikesPics/blob/master/more-imgs/info3.png)
 
 And here are the links to all the user's images in their profile:
 
-![](/home/n9/study/cybernotes/tinder/userimgs.png)
+![](https://github.com/1d8/GettingLikesPics/blob/master/more-imgs/userimgs.png)
 
 And here's what the type of info you'd see if a person has their spotify connected to their account:
 
 ![](/home/n9/study/cybernotes/tinder/spotify.png)
+![](https://github.com/1d8/GettingLikesPics/blob/master/more-imgs/spotify.png)
 
 And if the person has their instagram connected...
 
-![](/home/n9/study/cybernotes/tinder/insta.png)
+![](https://github.com/1d8/GettingLikesPics/blob/master/more-imgs/insta.png)
