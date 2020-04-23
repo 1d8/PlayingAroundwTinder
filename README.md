@@ -1,4 +1,4 @@
-## Unlocking Your Tinder Likes' Photos (first 10) Without Gold
+# Unlocking Your Tinder Likes' Photos (first 10) Without Gold
 
 ***
 As I'm sure most of us know, Tinder doesn't allow you to see who has swiped right on you unless you purchase a subscription from them.
@@ -24,3 +24,46 @@ Then browsing to these .jpeg URLs, we see the full unblurred image:
 ![](https://github.com/1d8/GettingLikesPics/blob/master/tinder/fullimg.png)
 
 Please note, these aren't all of your matches, simply the select 10 that pop up when you click on the likes section but theoretically speaking, it would be possible to simply collect all the image links, refresh the page, and repeat and get different image links.
+
+
+# Enumerating Before Swiping
+
+***
+This method is a way to see who's in your Tinder "time-line(?)" (for lack of a better term) before they even appear, this will gather their images, their birth year, their bio, and their Tinder ID number (as of now, I don't think the ID number is very useful)
+
+* Open up the dev console
+* Refresh the page (make sure you're on the main page before refreshing)
+* Navigate to the **core?locale=en** object:
+![](https://github.com/1d8/GettingLikesPics/blob/master/more-imgs/devcons.png)
+* Copy the JSON output, paste it in your fav text edito
+* Congrats!
+
+# Diving Deeper Into The JSON:
+Throwing our JSON into [Cyberchef's beautifier](https://gchq.github.io/CyberChef/#recipe=JSON_Beautify('%20%20%20%20',false)), we get this:
+
+![](https://github.com/1d8/GettingLikesPics/blob/master/more-imgs/info1.png)
+
+As we can see, we are hit with their ID, name, the year they were born (the date & the month remain the same for all users for some reason), as well as all their photos they have on their profile!
+
+Scrolling down...
+
+![](https://github.com/1d8/GettingLikesPics/blob/master/more-imgs/info2.png)
+
+As we can see, we get even more info!
+
+Here's more proof the birth month & day remain static for all users:
+
+![](https://github.com/1d8/GettingLikesPics/blob/master/more-imgs/info3.png)
+
+And here are the links to all the user's images in their profile:
+
+![](https://github.com/1d8/GettingLikesPics/blob/master/more-imgs/userimgs.png)
+
+And here's what the type of info you'd see if a person has their spotify connected to their account:
+
+![](/home/n9/study/cybernotes/tinder/spotify.png)
+![](https://github.com/1d8/GettingLikesPics/blob/master/more-imgs/spotify.png)
+
+And if the person has their instagram connected...
+
+![](https://github.com/1d8/GettingLikesPics/blob/master/more-imgs/insta.png)
