@@ -95,3 +95,7 @@ This is what I mean by dropping down a few spaces before pasting the 2nd piece o
 Here is the output after running the script:
 
 ![](https://github.com/1d8/PlayingAroundwTinder/blob/master/script-imgs/output.png)
+
+NOTE: The URLs are partially blurred as these are images of people.
+
+Access the script [here](https://github.com/1d8/PlayingAroundwTinder/blob/master/extractjpeg.py)
