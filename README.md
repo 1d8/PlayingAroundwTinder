@@ -67,3 +67,31 @@ And here's what the type of info you'd see if a person has their spotify connect
 And if the person has their instagram connected...
 
 ![](https://github.com/1d8/GettingLikesPics/blob/master/more-imgs/insta.png)
+
+
+# A More Automated Approach To Grabbing Imgs Of Likes
+
+The extract jpeg script is meant to extract only unique img links to those who swiped right on you.
+
+How this works is using regular expressions to extract the image URL & ensuring each URL ends with the .jpeg extension for the full image (since Tinder offers .jpg images with a variety of sizes)
+
+Unfortunately, you still need to manually grab the JSON output which is detailed [here](https://github.com/1d8/PlayingAroundwTinder), after manually grabbing the JSON output, you beautify it [here](https://codebeautify.org/jsonviewer) then input the beautified json into the *string* variable in the code.
+
+**NOTE:** This needs to be done multiple times over & over if you wish to grab the images of all your likes. Refresh, go back to dev console, grab JSON output, beautify it, paste it into script. Before pasting it into the *string* variable, drop down two spaces & ensure you stay within the triple quotes.
+
+# Demo 
+***
+
+This is how it should look when inputting it into the script:
+
+![](https://github.com/1d8/PlayingAroundwTinder/blob/master/script-imgs/input.png)
+
+This is what I mean by dropping down a few spaces before pasting the 2nd piece of JSON:
+
+![](https://github.com/1d8/PlayingAroundwTinder/blob/master/script-imgs/spaces.png)
+
+![](https://github.com/1d8/PlayingAroundwTinder/blob/master/script-imgs/spaces2.png)
+
+Here is the output after running the script:
+
+![](https://github.com/1d8/PlayingAroundwTinder/blob/master/script-imgs/output.png)
